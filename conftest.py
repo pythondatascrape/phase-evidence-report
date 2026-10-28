@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-SKILL = Path(__file__).resolve().parent
+SKILL = Path(__file__).resolve().parent / "phase-evidence-report"
 
 
 def run(skill: str, script: str, *args, cwd: Path) -> subprocess.CompletedProcess:
